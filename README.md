@@ -24,5 +24,14 @@
 #### Sorted by price range:
 <img width="944" alt="{79A4B712-5D6A-49EF-9BB4-FACEF953F27D}" src="https://github.com/user-attachments/assets/bafdcb5e-b554-42a2-a8ec-6e383263a1f8" />
 
+## 4. Policy section and NewsLetter
+#### Demo:
+<img width="950" alt="{58AC75A9-CBDB-423C-96CE-6377BE60ADE8}" src="https://github.com/user-attachments/assets/45d2ac92-ad07-4e4e-a799-21c70843bcfe" />
+
+## 5. Footer
+#### Demo:
+<img width="952" alt="{2255DD9D-03DF-4C33-9B15-215E38A0B0F4}" src="https://github.com/user-attachments/assets/76516214-2d0b-49bb-ba7f-ea1007fbbe58" />
+
+
 
 
