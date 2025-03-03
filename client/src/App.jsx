@@ -12,6 +12,7 @@ import ResetPassword from './pages/ResetPassword';
 import Navbar from './components/Navbar';
 import MyProfile from './pages/MyProfile';
 import Collections from './pages/Collections';
+import Footer from './components/Footer';
 const App = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/collection' element={<Collections/>}/>
         <Route path='/my-profile' element={<MyProfile/>}/>
       </Routes>
+      <Footer/>
       <ToastContainer/>
     </div>
   )

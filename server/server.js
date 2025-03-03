@@ -7,6 +7,7 @@ import connectDB from './config/mongodb.js';
 import authRouter from './routers/authRouter.js';
 import userRouter from './routers/userRouter.js';
 import connectCloudinary from './config/cloudinary.js';
+import productRouter from './routers/productRouter.js';
 const app = express();
 const port = process.env.PORT || 4000;
 connectDB();
@@ -24,6 +25,7 @@ app.get('/', (req, res) => {
 });
 app.use('/api/auth', authRouter);
 app.use('/api/user', userRouter);
+app.use('/api/product', productRouter);
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
