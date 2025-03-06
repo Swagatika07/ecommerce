@@ -80,6 +80,8 @@ const Navbar = () => {
               <p onClick={()=>navigate('/my-profile')} className="cursor-pointer hover:text-black">My profile</p>
               {userData.isAccountVerified ? null : (
               <p onClick={sendVerificationOtp} className="cursor-pointer hover:text-black">Verify Email</p>)}
+              {userData.name === 'Swagatika Nayak' ? (
+                <p onClick={()=>navigate('/product-management')} className="cursor-pointer hover:text-black">Admin Access</p>) : ""}
               <p onClick={logout} className="cursor-pointer hover:text-black">Logout</p>
             </div>
           </div>

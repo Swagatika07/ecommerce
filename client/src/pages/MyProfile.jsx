@@ -9,7 +9,7 @@ const MyProfile = () => {
         return (
           <div className="flex flex-col items-center mt-20 px-4 text-center text-gray-800">
             <img
-              src={assets.girl}
+              src={userData.profileImage ? userData.profileImage : assets.girl}
               alt="header"
               className="w-36 h-36 rounded-full mb-6"
             />
