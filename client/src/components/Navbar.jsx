@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import "../index.css";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
-import { AppContent } from "../context/AppContext";
+import { AppContent } from "../context/AppContext.jsx";
 import axios from "axios";
 import { toast } from "react-toastify";
 const Navbar = () => {
@@ -42,7 +42,7 @@ const Navbar = () => {
   };
   return (
     <div className="flex items-center justify-between p-5 font-medium">
-      <img src={assets.logo} className="w-36" alt="logo" />
+      <Link to='/'><img src={assets.logo} className="w-36" alt="logo" /></Link>
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
         <NavLink to="/" className="flex flex-col items-center gap-1">
           <p>Home</p>

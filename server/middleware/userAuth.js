@@ -6,6 +6,7 @@ const app = express();
 app.use(cookieParser());
 
 const userAuth = async(req,res,next) => {
+   
     console.log("Cookies", req.cookies);
     const {token} = req.cookies;
     if(!token){
@@ -26,6 +27,7 @@ const userAuth = async(req,res,next) => {
         console.log("Error verifying token",error.message);
         return res.status(401).json({message: "Unauthorized"})
     }
+
 }
 
 export default userAuth;
