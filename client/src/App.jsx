@@ -13,6 +13,9 @@ import Navbar from './components/Navbar';
 import MyProfile from './pages/MyProfile';
 import Collections from './pages/Collections';
 import Footer from './components/Footer';
+import ProductManagement from './pages/ProductManagement';
+
+export const backendUrl = import.meta.env.VITE_BACKEND_URL;
 const App = () => {
   return (
     <div>
@@ -28,7 +31,6 @@ const App = () => {
         <Route path='/my-profile' element={<MyProfile/>}/>
         <Route path='/product-management/*' element={<ProductManagement/>}/>
       </Routes>
-      <Footer/>
       <ToastContainer/>
     </div>
   )

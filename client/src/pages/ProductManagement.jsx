@@ -5,7 +5,7 @@ import AddProduct from "../admin_pages/AddProduct";
 import ViewProduct from "../admin_pages/ViewProduct";
 import ModifyProduct from "../admin_pages/ModifyProduct";
 import DeleteProduct from "../admin_pages/DeleteProduct";
-const ProductManagment = () => {
+const ProductManagement = () => {
   return (
     <div className="flex w-full">
       <Sidebar />
@@ -21,4 +21,4 @@ const ProductManagment = () => {
   );
 };
 
-export default ProductManagment;
+export default ProductManagement;

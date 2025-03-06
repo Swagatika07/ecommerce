@@ -2,7 +2,7 @@ import { createContext, useEffect } from "react";
 import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
-import Cookies from "js-cookie";
+// import Cookies from "js-cookie";
 
 export const AppContent = createContext();
 
@@ -71,8 +71,8 @@ export const AppContextProvider = (props) => {
   // }, []);
 
   useEffect(() => {
-    const token = Cookies.get('token');
-    console.log("Token after login:", token);
+    // const token = Cookies.get('token');
+    // console.log("Token after login:", token);
     //After a lot of inspection, I found the solution to the problem. The problem was that the getAuthState function was not being called when the user is logged in. So, I added a condition to check if the user is logged in and then call the getAuthState function. This fixed the problem.
     // if(isLoggedIn) {
       // if(token){
