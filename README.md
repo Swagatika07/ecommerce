@@ -32,6 +32,14 @@
 #### Demo:
 <img width="952" alt="{2255DD9D-03DF-4C33-9B15-215E38A0B0F4}" src="https://github.com/user-attachments/assets/76516214-2d0b-49bb-ba7f-ea1007fbbe58" />
 
+## 6. CRUD operation on Products
+#### Add Products demo:
+![image](https://github.com/user-attachments/assets/512e2bf9-a4bc-4fef-90e9-e68e409b5f8d)
+
+#### View Products demo: 
+![image](https://github.com/user-attachments/assets/93ff12f5-ebc9-4265-9bf8-6004b310e466)
+
+
 
 
 
